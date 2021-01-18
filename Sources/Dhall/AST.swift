@@ -168,39 +168,39 @@ struct TextLiteral {
 }
 
 /// Builtin values
-enum Builtin {
-  case naturalBuild
-  case naturalFold
-  case naturalIsZero
-  case naturalEven
-  case naturalOdd
-  case naturalToInteger
-  case naturalShow
-  case naturalSubtract
-  case integerToDouble
-  case integerShow
-  case integerNegate
-  case integerClamp
-  case doubleShow
-  case listBuild
-  case listFold
-  case listLength
-  case listHead
-  case listLast
-  case listIndexed
-  case listReverse
-  case textShow
-  case textReplace
-  case bool
-  case optional
-  case natural
-  case integer
-  case double
-  case text
-  case list
+enum Builtin: String {
+  case naturalBuild = "Natural/build"
+  case naturalFold = "Natural/fold"
+  case naturalIsZero = "Natural/isZero"
+  case naturalEven = "Natural/even"
+  case naturalOdd = "Natural/odd"
+  case naturalToInteger = "Natural/toInteger"
+  case naturalShow = "Natural/show"
+  case naturalSubtract = "Natural/subtract"
+  case integerToDouble = "Integer/toDouble"
+  case integerShow = "Integer/show"
+  case integerNegate = "Integer/negate"
+  case integerClamp = "Integer/clamp"
+  case doubleShow = "Double/show"
+  case listBuild = "List/build"
+  case listFold = "List/fold"
+  case listLength = "List/length"
+  case listHead = "List/head"
+  case listLast = "List/last"
+  case listIndexed = "List/indexed"
+  case listReverse = "List/reverse"
+  case textShow = "Text/show"
+  case textReplace = "Text/replace"
+  case bool = "Bool"
+  case optional = "Optional"
+  case natural = "Natural"
+  case integer = "Integer"
+  case double = "Double"
+  case text = "Text"
+  case list = "List"
   case `true`
   case `false`
-  case none
+  case none = "None"
 }
 
 /// Type-checking constants

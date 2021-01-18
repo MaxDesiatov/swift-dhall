@@ -9,6 +9,15 @@
           "revision": "33b8f9e07c5e6970ff6241a1eb318d63179fa677",
           "version": "0.6.1"
         }
+      },
+      {
+        "package": "SwiftCBOR",
+        "repositoryURL": "https://github.com/myfreeweb/SwiftCBOR",
+        "state": {
+          "branch": null,
+          "revision": "668c26fc3373d5f1bccbaad7665ca6048797e324",
+          "version": "0.4.3"
+        }
       }
     ]
   },
